@@ -1,12 +1,11 @@
-class Person{
-
-    constructor(){
-        this.name = 'Max';
+const request = new XMLHttpRequest();
+request.addEventListener('readystatechange'){
+    if(request.readyState === 4){
+        console.log(request.responseText);
     }
-
-    printName(){
-        console.log(this.name);
-    }
-    
-
 }
+request.open('GET','https://jsonplaceholder.typicode.com/todos/')
+request.send();
+
+
+

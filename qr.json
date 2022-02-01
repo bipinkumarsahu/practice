@@ -1,0 +1,5 @@
+[
+    {"flavour": "chocolate", "topping":"choco chip", "scoops": 1},
+    {"flavour": "caramel", "topping":"cherries", "scoops": 2},
+    {"flavour": "buttersotch", "topping":"nuts", "scoops": 1}
+]
